@@ -8,8 +8,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 7,18 * * *'
-  
+    - cron: '0 10,23 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: read
